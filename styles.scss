@@ -1,0 +1,29 @@
+@mixin fontStyle {
+  color: chartreuse;
+  text-transform: uppercase;
+}
+$colorbg: black;
+
+body {
+  background-color: $colorbg;
+}
+
+ul {
+  list-style: nome;
+  pad: 0;
+  margin: 60px;
+
+  li {
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    background-color: rgb(189, 166, 75);
+  }
+}
+
+p {
+  @include fontStyle();
+}

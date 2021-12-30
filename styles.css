@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+ul {
+  list-style: nome;
+  pad: 0;
+  margin: 60px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  background-color: #bda64b;
+}
+
+p {
+  color: chartreuse;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */
